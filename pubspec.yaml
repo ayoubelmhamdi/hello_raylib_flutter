@@ -1,0 +1,20 @@
+name: hello_raylib
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  raylib:
+    git:
+      url: https://github.com/HrX03/raylib5.dart.git
+      ref: main
+  cupertino_icons: ^1.0.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
